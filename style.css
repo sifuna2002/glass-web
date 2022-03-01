@@ -181,3 +181,36 @@ main {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@media only screen and (max-width:560px) {
+  .glass{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+  .games {
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .card {
+    display: flex;
+    background: linear-gradient(
+      to left top,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.5)
+    );
+    border-radius: 1rem;
+    margin: 2rem 0rem;
+    padding: 2rem;
+    box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
+    justify-content: space-between;
+  }
+  .percentage {
+    display: none;
+  }
+  .pro{
+    margin-bottom: 25px;
+  }
+  
+}
